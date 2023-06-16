@@ -10,6 +10,6 @@ Managing work for the [@have-fun Observable Team](https://observablehq.com/@have
 
 ## Approach
 
-- Get down ideas and talk them out here on GitHub
+- Get down ideas and talk them out here on GitHub as issues
 - Work out ideas and show the results over on Observable
 - Have fun!
