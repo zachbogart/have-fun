@@ -5,7 +5,6 @@ library(readxl)
 raw <- read_excel(here("apple-trademarks/data/apple-legal-trademark-list.xlsx"))
 
 apple_trademarks <- raw %>% 
-    select(name) %>% 
     mutate(name_no_mark = str_remove(name, "[®™℠ ]$"))
 
 apple_trademarks %>% 
